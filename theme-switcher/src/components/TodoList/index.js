@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const List = styled.ul`
-background: #0C0B0B;
-color: #FFFFFF;
+background: ${props => props.theme.theme.backgroud};
+color: ${props => props.theme.theme.color};
 font-family: sans-sarif;
 font-size: 18px;
 
