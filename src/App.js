@@ -33,7 +33,7 @@ class App extends Component {
       </ThemeContext.Provider>
     </div>
       );
-  }
+}
 }
 
 export default App;
